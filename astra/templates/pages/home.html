@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<body>
+    <div class='container'>
+    </div>
+    <!-- HERO -->
+    <div class="jumbotron text-center">
+        <h1>Ad Astra</h1>
+        <p class="lead">To the Stars!</p>
+        <!-- <a href="#" class="btn btn-primary">Learn More</a> -->
+    </div>
+    <!-- BENEFITS -->
+    <div class="container mb-5 mt-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Earth</h3>
+            <p class="lead">Search imagery from NASA photo archive!</p>
+            <a href='/earth' class="btn btn-primary">More</a>
+        </div>
+        <div class="col-lg-4">
+            <h3>Mars</h3>
+            <p class="lead">Explore Mars Weather!</p>
+            <a href="/mars" class="btn btn-primary">More</a>
+        </div>
+        <div class="col-lg-4">
+            <h3>APOD</h3>
+            <p class="lead">Click the button below to view NASA's pic of the day!</p>
+            <a href="/apod" class="btn btn-primary">APOD!!</a>
+          </div>
+        </div>
+    </div><br><br>
+</body>
+{% endblock %}
