@@ -124,6 +124,8 @@ NASA_API_KEY = os.environ.get('API_KEY')
 
 STATIC_URL = '/static/'
 
+BLOG_TITLE_MAX_LENGTH = 600
+
 LOGIN_REDIRECT_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 
